@@ -114,7 +114,7 @@ class Filter:
                 else:
                     frame = cv2.cvtColor(np.asarray(img), cv2.COLOR_RGB2BGR)
 
-            cv2.imshow("deal generator", frame)
+            cv2.imshow("THUG LIFE", frame)
             key = cv2.waitKey(1) & 0xFF
             if key == ord("q"):
                 break
